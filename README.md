@@ -13,11 +13,14 @@ Encourages paperless billing system.
 This sample uses the Gradle build system. To build this project, use the
 "gradlew build" command or use "Import Project" in Android Studio.
 
-#### Homescreen Image
-![](image/homescreen.png)
+### Homescreen Image
+![](images/homescreen.png)
 
-#### After filling details
-![](image/image.png)
+### After filling details
+![](images/image.png)
 
-#### After Pressing Order
-![](image/main indent.png)
+### After Pressing Order
+![](images/mailindent.png)
+
+### After Pressing SMS
+![](images/smsindent.png)
