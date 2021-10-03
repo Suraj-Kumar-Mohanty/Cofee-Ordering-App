@@ -1,4 +1,4 @@
-# Just-Java
+# Cofee-Ordering-App
 =================================
 
 A sample app which creates a bill and sends it to your mail and your phone number.
