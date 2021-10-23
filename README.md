@@ -1,4 +1,4 @@
-# Coffeelicious
+# Just Java
 =================================
 
 A sample app which creates a bill and sends it to your mail and your phone number.
@@ -14,10 +14,10 @@ This sample uses the Gradle build system. To build this project, use the
 "gradlew build" command or use "Import Project" in Android Studio.
 
 ### Homescreen Image
-![](images/homescreen.png)
+![](images/homescreen.jpg)
 
 ### After filling details
-![](images/image.png)
+![](images/image.jpg)
 
 ### After Pressing Order
 ![](images/mailindent.png)
