@@ -15,6 +15,7 @@ This sample uses the Gradle build system. To build this project, use the
 
 ### Homescreen Image
 ![](images/homescreen.jpg)
+<img src="images/homescreen.jpg" width="100" height="100">
 
 ### After filling details
 ![](images/image.jpg)
