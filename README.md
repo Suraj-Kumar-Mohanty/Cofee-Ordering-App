@@ -17,7 +17,7 @@ This sample uses the Gradle build system. To build this project, use the
 <img src="images/homescreen.jpg" width="350" height="800">
 
 ### After filling details
-<img src="images/images.jpg" width="350" height="800">
+<img src="images/image.jpg" width="350" height="800">
 
 ### After Pressing Order
 ![](images/mailindent.png)
