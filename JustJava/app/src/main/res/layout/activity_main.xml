@@ -93,8 +93,8 @@
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:onClick="increment"
-                android:text="+"
+                android:onClick="decrement"
+                android:text="-"
                 android:textAllCaps="true" />
 
             <TextView
@@ -110,8 +110,8 @@
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:onClick="decrement"
-                android:text="-"
+                android:onClick="increment"
+                android:text="+"
                 android:textAllCaps="true" />
         </LinearLayout>
         <Button

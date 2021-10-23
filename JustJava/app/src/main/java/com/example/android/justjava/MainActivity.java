@@ -2,10 +2,8 @@ package com.example.android.justjava;
 
 import android.annotation.SuppressLint;
 import android.content.Intent;
-import android.content.pm.PackageManager;
 import android.net.Uri;
 import android.os.Bundle;
-import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.EditText;
@@ -28,6 +26,7 @@ public class MainActivity extends AppCompatActivity
     @SuppressLint("QueryPermissionsNeeded")
     public void submitOrder(View view)
     {
+
         EditText text = (EditText)findViewById(R.id.name_field);
         String name = text.getText().toString();
         price = numberOfCoffee * 5;
@@ -49,15 +48,12 @@ public class MainActivity extends AppCompatActivity
         {
             printmssg = printmssg + "\n Chocolate Topping is added!";
         }
-        printmssg = printmssg + "\n Thank You";
+        printmssg = printmssg + "\n Thank You!";
         Intent intent = new Intent(Intent.ACTION_SENDTO);
         intent.setData(Uri.parse("mailto:"));
-        intent.putExtra(Intent.EXTRA_SUBJECT, "Order for " + name);
+        intent.putExtra(Intent.EXTRA_SUBJECT, "Order for "+name);
         intent.putExtra(Intent.EXTRA_TEXT, printmssg);
-        if(intent.resolveActivity(getPackageManager()) != null)
-        {
-            startActivity(intent);
-        }
+            startActivity(Intent.createChooser(intent, "Send Email"));
     }
     public void increment(View view)
     {
@@ -87,17 +83,10 @@ public class MainActivity extends AppCompatActivity
         numberOfCoffee--;
         display(numberOfCoffee);
     }
-    private void display(int number)
-    {
+    private void display(int number) {
         TextView quantityTextView = (TextView) findViewById(
                 R.id.quantity_text_view);
         quantityTextView.setText("" + number);
-    }
-    final int SEND_SMS_PERMISSION_REQUEST_CODE = 1;
-
-    public boolean checkPermission(String permission){
-        int check = ContextCompat.checkSelfPermission(this, permission);
-        return (check == PackageManager.PERMISSION_GRANTED);
     }
         public void sendSMS (View view){
             EditText text = (EditText)findViewById(R.id.name_field);
