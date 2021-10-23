@@ -14,8 +14,7 @@ This sample uses the Gradle build system. To build this project, use the
 "gradlew build" command or use "Import Project" in Android Studio.
 
 ### Homescreen Image
-![](images/homescreen.jpg)
-<img src="images/homescreen.jpg" width="100" height="100">
+<img src="images/homescreen.jpg" width="700" height="1000">
 
 ### After filling details
 ![](images/image.jpg)
