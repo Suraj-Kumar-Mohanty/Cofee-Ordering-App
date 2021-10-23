@@ -14,10 +14,10 @@ This sample uses the Gradle build system. To build this project, use the
 "gradlew build" command or use "Import Project" in Android Studio.
 
 ### Homescreen Image
-<img src="images/homescreen.jpg" width="350" height="800">
+<img src="images/homescreen.jpg" width="380" height="800">
 
 ### After filling details
-<img src="images/image.jpg" width="350" height="800">
+<img src="images/image.jpg" width="380" height="800">
 
 ### After Pressing Order
 ![](images/mailindent.png)
